@@ -57,10 +57,12 @@
   }
 
   &:hover {
+    color: $white-color;
     -webkit-text-fill-color: $white-color;
     text-decoration: none;
 
     @include respond(phone) {
+      color: $secondary-color;
       -webkit-text-fill-color: $secondary-color;
     }
 
